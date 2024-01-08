@@ -5,7 +5,7 @@ import guru.springframework.sdjpaintro.repositories.BookRepository;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 
-//@Component
+@Component
 public class DataInitializer implements CommandLineRunner {
 
     private final BookRepository bookRepository;
